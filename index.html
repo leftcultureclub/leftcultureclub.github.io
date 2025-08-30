@@ -19,10 +19,30 @@
   <link rel="apple-touch-icon" href="icon.png">
 
   <meta name="theme-color" content="#ff3131">
+  <link rel="preload" href="./assets/fonts/Anton-Regular.woff" as="font" type="font/woff">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-lcc: #ff3131;
+    }
+  </style>
 </head>
 
-<body>
-  <p>🚩</p>
-</body>
+<body class="w-full bg-lcc p-12">
+  <header class="flex justify-between w-full">
+    <a class="uppercase antonio logo text-4xl" href="">Left Culture Club</a>
+    <div class="headerLinks">
+      <a class="uppercase antonio text-3xl" href="./about.html">About</a>
+      <a class="uppercase antonio text-3xl" href="./contact.html">Contact</a>
+      <a class="uppercase antonio text-3xl" href="./info.html">Info</a>
+      <a class="uppercase antonio text-3xl" href="./events.html">Events</a>
+    </div>
+  </header>
 
+  <p class="anton uppercase text-white text-shadow-lg" id="autonomousText">Autonomous, for everyone.</p>
+  <p class="opensauce">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </p>
+</body>
 </html>

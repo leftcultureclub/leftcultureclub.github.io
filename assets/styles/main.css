@@ -1,0 +1,55 @@
+/* Base typography */
+@font-face {
+    font-family: Anton;
+    src: url(../fonts/Anton/Anton-Regular.woff);
+}
+
+@font-face {
+    font-family: Antonio;
+    src: url(../fonts/Antonio/Antonio-VariableFont_wght.woff);
+}
+
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.antonio {
+    font-family: 'Antonio', sans-serif;
+}
+
+.opensauce {
+    font-family: 'Open Sauce', sans-serif;
+}
+
+a {
+    text-shadow: 0 0 3px rgba(0, 0, 0, .25);
+
+    &:hover, &:focus {
+        text-shadow: 0 0 6px rgba(0, 0, 0, .75);
+    }
+}
+/* Base page styling */
+
+/* -- Header */
+.logo {
+    color: white;
+}
+
+.headerLinks {
+    a {
+        color: rgba(255, 255, 255, .7);
+
+        &:hover, &:focus, & .active {
+            color: white;
+        }
+
+        & + a {
+            margin-left: 1em;
+        }
+    }
+}
+
+/* Index page */
+#autonomousText {
+    font-size: 6em;
+}
