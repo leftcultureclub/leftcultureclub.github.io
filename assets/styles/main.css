@@ -1,4 +1,5 @@
 /* Base typography */
+
 @font-face {
     font-family: Anton;
     src: url(../fonts/Anton/Anton-Regular.woff);
@@ -28,9 +29,11 @@ a {
         text-shadow: 0 0 6px rgba(0, 0, 0, .75);
     }
 }
+
 /* Base page styling */
 
 /* -- Header */
+
 .logo {
     color: white;
 }
@@ -50,6 +53,7 @@ a {
 }
 
 /* Index page */
+
 #autonomousText {
     font-size: 6em;
 }
