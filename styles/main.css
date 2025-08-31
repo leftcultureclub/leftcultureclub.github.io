@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: Anton;
-    src: url(../fonts/Anton/Anton-Regular.woff);
+    src: url(../assets/fonts/Anton/Anton-Regular.woff);
 }
 
 @font-face {
     font-family: Antonio;
-    src: url(../fonts/Antonio/Antonio-VariableFont_wght.woff);
+    src: url(../assets/fonts/Antonio/Antonio-VariableFont_wght.woff);
 }
 
 .anton {
