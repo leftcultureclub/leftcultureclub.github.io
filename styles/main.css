@@ -41,7 +41,7 @@ a {
 
 .headerLinks {
     a {
-        color: rgba(255, 255, 255, .7);
+        color: rgba(255, 255, 255, .9);
 
         &:hover, &:focus, & .active {
             color: white;
@@ -51,10 +51,4 @@ a {
             margin-left: 1em;
         }
     }
-}
-
-/* Index page */
-
-#autonomousText {
-    font-size: 6em;
 }
