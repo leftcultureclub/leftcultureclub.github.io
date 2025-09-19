@@ -10,6 +10,11 @@
     src: url(../fonts/Antonio-VariableFont_wght.woff);
 }
 
+@font-face {
+    font-family: OpenSauce;
+    src: url(../fonts/opensauceone-regular-webfont.woff2);
+}
+
 .anton {
     font-family: 'Anton', sans-serif;
 }
@@ -19,7 +24,7 @@
 }
 
 .opensauce {
-    font-family: 'Open Sauce', sans-serif;
+    font-family: 'OpenSauce', sans-serif;
 }
 
 a {
@@ -33,10 +38,6 @@ a {
 /* Base page styling */
 
 /* -- Header */
-
-.logo {
-    color: white;
-}
 
 .headerLinks {
     a {
