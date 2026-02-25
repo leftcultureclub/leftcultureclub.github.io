@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Left Culture Club</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.min.css">
   <link rel="stylesheet" href="/styles/main.css">
   <meta name="description" content="The Left Culture Club is a London-wide leftist social club.">
 
@@ -22,55 +23,52 @@
   <link rel="preload" href="/fonts/Anton-Regular.woff" as="font" type="font/woff">
   <link rel="preload" href="/fonts/Antonio-VariableFont_wght.woff" as="font" type="font/woff">
   <link rel="preload" href="/fonts/opensauceone-regular-webfont.woff2" as="font" type="font/woff2">
-
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <style type="text/tailwindcss">
-    @theme {
-      --color-lcc: #cf3040;
-    }
-  </style>
 </head>
 
-<body class="w-full bg-lcc p-12 text-white">
-  <header class="flex justify-between w-full mb-25">
-    <a class="uppercase antonio logo text-6xl" href="">Left Culture Club</a>
-    <div class="headerLinks text-4xl">
-      <a class="uppercase antonio" href="/about.html">About</a>
-      <a class="uppercase antonio" href="/contact.html">Contact</a>
-      <a class="uppercase antonio" href="/info.html">Info</a>
-      <a class="uppercase antonio" href="/events.html">Events</a>
-    </div>
+<body>
+  <header>
+    <a id="logo" href="">Left Culture Club</a>
+    <ul id="menu">
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/info.html">Info</a></li>
+      <li><a href="/events.html">Events</a></li>
+    </ul>
   </header>
 
-  <p class="anton uppercase text-white text-9xl text-shadow-lg mb-20" id="autonomousText">Autonomous, for everyone.</p>
+  <p id="hero">Autonomous, for everyone.</p>
 
-  <p class="opensauce text-3xl my-4">
+  <p>
     Welcome to the Left Culture Club! If you’re tired of social events that never go below the surface, craving real community, and curious about exploring radical politics in a safe, friendly and non-judgemental space, you’ve just found it!
   </p>
-  <p class="opensauce text-3xl my-4">
+  <p>
     At LCC, you’ll find film screenings, skill-shares, games nights, book clubs and open conversations that don't require a party line, only empathy and curiosity.
   </p>
-  <p class="opensauce text-3xl my-4">
+  <p>
     We’re building the social fabric the left has been missing - and you are invited to be part of it.
   </p>
-  <p class="opensauce text-3xl my-4">
+  <p>
     Join our newsletter to hear about upcoming events and get involved!
   </p>
 
-  <footer class="flex justify-between items-start mt-8">
+  <footer>
     <div>
       <p>Donate XMR: 0x0D5FC08FC370813C337211B2A487C6B76111CA</p>
       <p>Donate BTC: n2hTWNC9TnxdJPnzRhDCCZK8Q1pHpaHkQy</p>
       <p><a href="#">Cryptocurrency buying guide</a></p>
     </div>
-    <div class="flex items-center">
-      <a href="https://www.instagram.com/leftcultureclub/">
-        <img style="height: 3em" src="/images/icon-instagram.svg">
-      </a>
-      <a class="ml-2" href="https://www.meetup.com/leftcultureclub/">
-        <img style="height: 2em" src="/images/icon-meetup.svg">
-      </a>
-    </div>
+    <ul id="socials">
+      <li>
+        <a href="https://www.instagram.com/leftcultureclub/">
+          <img style="height: 3em" src="/images/icon-instagram.svg">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.meetup.com/leftcultureclub/">
+          <img style="height: 2em" src="/images/icon-meetup.svg">
+        </a>
+      </li>
+    </ul>
   </footer>
 </body>
 
